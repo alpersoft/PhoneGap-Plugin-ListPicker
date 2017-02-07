@@ -101,11 +101,11 @@
     [view addSubview:self.pickerView];
   
     // Check if device is iPad to display popover
-    if ( IS_IPAD ) {
+    //if ( IS_IPAD ) {
         return [self presentPopoverForView:view];
-    } else {
+    //} else {
         return [self presentModalViewForView:view];
-    }
+    //}
 }
      
 -(void)presentModalViewForView:(UIView *)view {
